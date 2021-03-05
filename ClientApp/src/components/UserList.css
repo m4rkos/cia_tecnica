@@ -1,0 +1,37 @@
+.table_user_list nav {
+    position: absolute;    
+    padding-top: 2rem;
+    right: 0;
+    bottom: 0px;
+}
+
+.table_user_list {
+    margin-top: 2rem;
+    position: relative;
+    padding-bottom: 5rem;    
+}
+
+.table_user_list thead {
+    background: #cacaca;
+}
+
+/* .table_user_list .c-datatable-filter {
+    position: absolute;
+    left: 10rem;
+}
+
+.table_user_list .c-datatable-items-per-page {
+    position: absolute;
+    left: 10rem;
+} */
+
+.btnTextWhite {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    font-size: 1.2rem;
+}
+
+.margTop {
+    margin-top: 2rem;
+}

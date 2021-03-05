@@ -1,7 +1,6 @@
 import React, {
   useState,
   useContext,
-  useRef,
   useEffect
 } from 'react'
 import PropTypes from 'prop-types'
@@ -29,7 +28,7 @@ const CTabPane = props => {
 
   const { active: activeTab, setActiveTab } = useContext(Context) || {} 
   const fade = useContext(FadeContext)
-  let useRef = useRef()
+  let useRef = React.useRef()
   const ref = typeof innerRef === 'object' ? innerRef : useRef
   typeof innerRef === 'function' && innerRef(ref)
 
